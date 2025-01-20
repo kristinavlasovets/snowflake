@@ -1,4 +1,10 @@
-import { Container, TopLeft, BottomLeft, BottomRight, Hamburger } from './style'
+import {
+  Container,
+  TopLeft,
+  BottomLeft,
+  BottomRight,
+  Hamburger,
+} from "./style";
 
 export default function Overlay() {
   return (
@@ -7,37 +13,32 @@ export default function Overlay() {
         <h1>
           PERFORMANCE
           <br />
-          REVIEW
+          REVIEW 22/01
+          <br />
         </h1>
-        <p>Kristina Vlasovets</p>
+        <p>KRISTINA VLASOVETS</p>
+        <p>22/01/2025</p>
       </TopLeft>
       <BottomLeft>
-        <a href="https://www.modsen-software.com/about-us">MODSEN</a>
+      <h4><a href="https://www.modsen-software.com/about-us">MODSEN</a></h4>
       </BottomLeft>
       <BottomRight>
-        Inspiration and ideas
-        <br />
-        Fundamentals
-        <br />
-        Finding models
-        <br />
-        Preparing them for the web
-        <br />
-        Displaying and changing models
-        <br />
-        Animation fundamentals
-        <br />
-        Effects and making things look good
-        <br />
-        Performance and time to load
-        <br />
+        <h3>
+THANK YOU AND
+        </h3>
+        <h3>
+          HAPPY NEW YEAR!
+        </h3>
+
+        <h3>
+          ❄️ 🎄 🎅🏼
+        </h3>
       </BottomRight>
       <Hamburger>
         <div />
         <div />
         <div />
       </Hamburger>
-
     </Container>
-  )
+  );
 }
